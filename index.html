@@ -47,67 +47,42 @@
     <h2 id="estrutura-basica-html">Como é uma estrutura básica de um HTML?</h2>
     <small><a href="#indice">Índice</a></small>
     <p>
-      <span>
-            <</span>!DOCTYPE html<span>>
-      </span><br>
-      <span>
-            <</span>html lang="pt-br" <span>>
-      </span><br>
-      <span>
-            <</span>head <span>>
-      </span><br>
-         <blockquote>
-            <span>
-               <</span>meta charset="UTF-8" <span>>
-            </span><br>
-            <span>
-               <</span>meta http-equiv="X-UA-Compatible" content="IE=edge" <span>>
-            </span><br>
-            <span>
-               <</span>meta name="viewport" content="width=device-width, initial-scale=1.0" <span>>
-            </span><br>
-            <span>
-               <</span>title>Document <span>
-                  <</span>/title <span>>
-            </span><br>
-         </blockquote>
-      <span>
-            <</span>/head <span>>
-      </span><br>
-      <span>
-            <</span>body <span>>
-      </span><br>
-
-      <span>
-            <</span>/body <span>>
-      </span><br>
-      <span>
-            <</span>/html <span>>
-      </span><br>
+      <pre>
+         &lt;!DOCTYPE html&gt;
+         &lt;html lang="pt-br"&gt;
+         &lt;head &gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+         &lt;/head&gt;
+         &lt;body&gt;
+         &lt;/body&gt;
+      </pre>
    </p>
 
    <p>
-      <strong><span> <</span>!DOCTYPE html<span>></span><br></strong> Está tag é repsonsável por dizer ao navegador que é um documento do tipo HTML.<br><br>
+      <strong>&lt;!DOCTYPE html&gt;<br></strong> Está tag é repsonsável por dizer ao navegador que é um documento do tipo HTML.<br><br>
 
-      <strong><span> <</span>html lang="pt-br"<span>></span><br></strong> Está é uma tag que marca todo o conteudo html, se observar bem, verá que ela começa com html e termina com /html, desta forma marcando todo conteúdo.<br><br>
+      <strong>&lt;html lang="pt-br"&gt;<br></strong> Está é uma tag que marca todo o conteudo html, se observar bem, verá que ela começa com html e termina com /html, desta forma marcando todo conteúdo.<br><br>
 
-      <strong><span> <</span>head<span>></span><br></span></strong> Está tag é responsável por abraçar toda a cabeça do site, aqui entram alguns metadados como o titulo da página, folhas de estilos e alguns outros arquivos e configurações.<br><br>
+      <strong>&lt;head&gt;<br></strong> Está tag é responsável por abraçar toda a cabeça do site, aqui entram alguns metadados como o titulo da página, folhas de estilos e alguns outros arquivos e configurações.<br><br>
 
-      <strong><span> <</span>meta charset="UTF-8"<span>></span><br></strong> Está é uma tag de configuração, aqui dizemos ao navegador qual é o formato de codificação de caracteres utilizado.<br><br>
+      <strong>&lt;meta charset="UTF-8"&gt;<br></strong> Está é uma tag de configuração, aqui dizemos ao navegador qual é o formato de codificação de caracteres utilizado.<br><br>
 
-      <strong><span> <</span>meta http-equiv="X-UA-Compatible" content="IE=edge"<span>></span><br></strong> Tag de compatibilidade com internet explorer<br><br>
+      <strong>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br></strong> Tag de compatibilidade com internet explorer<br><br>
 
-      <strong><span> <</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span>></span><br></strong> Está tag é responsavel por controlar a exibição do nosso site em dispositivos móveis.<br><br>
+      <strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br></strong> Está tag é responsavel por controlar a exibição do nosso site em dispositivos móveis.<br><br>
 
-      <strong><span> <</span>title>Document<span> <</span>/title<span>></span><br></strong> Esta tag é utilizada para marcar o titlo do site, o que aparece na aba do navegador.<br><br>
+      <strong>&lt;title>Document &lt;/title&gt;<br></strong> Esta tag é utilizada para marcar o titlo do site, o que aparece na aba do navegador.<br><br>
 
-      <strong><span> <</span>/head<span>></span><br></strong> Tag de fechamento da cabeça do nosso html.<br><br>
+      <strong>&lt;/head&gt;<br></strong> Tag de fechamento da cabeça do nosso html.<br><br>
 
-      <strong><span> <</span>body<span>></span><br></strong> Está é tag que irá exibir nosso conteúdo, ela abraça nosos paragrafos imagens e todo tipo de midia.<br><br>
+      <strong>&lt;body&gt;<br></strong> Está é tag que irá exibir nosso conteúdo, ela abraça nosos paragrafos imagens e todo tipo de midia.<br><br>
 
-      <strong><span> <</span>/body<span>></span><br></strong> tag de fechamento do corpo do conteudo.<br><br>
+      <strong>&lt;/body&gt;<br></strong> tag de fechamento do corpo do conteudo.<br><br>
 
-      <strong><span> <</span>/html<span>></span><br></strong> tag de fechamento do documento html.
+      <strong>&lt;/html&gt;<br></strong> tag de fechamento do documento html.
    </p>
 
    <h2 id="diferenca-ul-ol">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
@@ -118,6 +93,7 @@
    <p>
       As tags usadas para criar uma lista não ordenada são &lt;ul&gt; e &lt;li&gt;. A tag &lt;ul&gt; é usada para definir a lista e a tag &lt;li&gt; é usada para cada item da lista.
    </p>
+   <br>
    <p>
       As <strong>listas ordenadas</strong> ou numeradas são usadas para indicar alguma sequência ou numeração
    </p>
@@ -133,5 +109,6 @@
       <li><a href="#">http://dio.me</a></li>
       <li><a href="#">http://w3c.org</a></li>
    </ul>
+   <hr>
 </body>
 </html>
